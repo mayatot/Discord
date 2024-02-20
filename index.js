@@ -26,25 +26,25 @@ client.on('ready', async () => {
     .setApplicationId('')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
+    .setState('Valorant')
+    .setName('maya')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1201127101311492118/1202948321409372191/8279972121a6540ae1a22713b2ad4615.png?ex=65e1c4ed&is=65cf4fed&hm=bfe8fd7714ee1e539d0193714401a1a943f601404c9085c263652907ce332f73&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('𝑝𝑟𝑒𝑚 𝑎𝑐𝑐𝑠 , 𝑛𝑖𝑡𝑟𝑜𝑠 & 𝑔𝑎𝑚𝑒 𝑐𝑟𝑒𝑑𝑠') //Text when you hover the Large image
+    .setAssetsSmallImage('https://discord.com/channels/@me/1201099754583633971/1209527171539017780') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('legit dc shop!') //Text when you hover the Small image
+    .addButton('shop', 'https://discord.com/invite/eporium')
+    .addButton('vouches', 'https://discord.gg/bG6PgpBA2P');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ` [${newTime}]`;
+      const newDetails = ` .gg/eporium`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
