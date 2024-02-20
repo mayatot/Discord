@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1201106199383375942')
     .setType('STREAMING')
-    .setURL('https://syrinxx.carrd.co/') //Must be a youtube video link 
+    .setURL('https://www.youtube.com/watch?v=nGKFgidwsTM&list=RDnGKFgidwsTM&start_radio=1') //Must be a youtube video link 
     .setState('Valorant')
     .setName('maya')
     .setDetails(`Valorant [${formatTime()}]`)
