@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1201106199383375942')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
+    .setURL('https://syrinxx.carrd.co/') //Must be a youtube video link 
     .setState('Valorant')
     .setName('maya')
     .setDetails(`Valorant [${formatTime()}]`)
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `kapoi`;
+      const newDetails = `0623`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
