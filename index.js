@@ -34,8 +34,8 @@ client.on('ready', async () => {
     .setAssetsLargeText('𝑝𝑟𝑒𝑚 𝑎𝑐𝑐𝑠 , 𝑛𝑖𝑡𝑟𝑜𝑠 & 𝑔𝑎𝑚𝑒 𝑐𝑟𝑒𝑑𝑠') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1191505419764510801.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('legit dc shop!') //Text when you hover the Small image
-    .addButton('shop', 'https://discord.com/invite/eporium')
-    .addButton('vouches', 'https://discord.gg/bG6PgpBA2P');
+    .addButton('Shop', 'https://discord.com/invite/eporium')
+    .addButton('Vouches', 'https://discord.gg/bG6PgpBA2P');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
