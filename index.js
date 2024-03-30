@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('maya')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1201127101311492118/1202948321409372191/8279972121a6540ae1a22713b2ad4615.png?ex=65e1c4ed&is=65cf4fed&hm=bfe8fd7714ee1e539d0193714401a1a943f601404c9085c263652907ce332f73&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1201127101311492118/1202948321409372191/8279972121a6540ae1a22713b2ad4615.png?ex=661923ed&is=6606aeed&hm=64c94c832df8ba1fe87620bc9605c29242da7ed3ed400ac6da81105080ba5906&=&format=webp&quality=lossless&width=405&height=405') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('𝑝𝑟𝑒𝑚 𝑎𝑐𝑐𝑠 , 𝑛𝑖𝑡𝑟𝑜𝑠 & 𝑔𝑎𝑚𝑒 𝑐𝑟𝑒𝑑𝑠') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1191505419764510801.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('legit dc shop!') //Text when you hover the Small image
